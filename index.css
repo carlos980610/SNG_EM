@@ -4,26 +4,85 @@ body{
 
 
 
+/*CONTROLES GENERALES*/
 
+/*Botones*/
 .btn{
 	border-radius: 0px;
 }
+/*Botones*/
 
 
+/*Contenido menos navbar*/
+.ALL-CONTENT{
+	padding-top: 6%;
+}
+/*Contenido menos navbar*/
+.form-control{
+	border-radius: 0%;
+}
+
+/*CONTROLES GENERALES*/
+
+
+
+
+
+/*DIV NAVBAR*/
 .navbar{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	z-index: 100;
 	background: #fff;
 	padding-left: 15%;
 	padding-right: 15%;
-
-
 	border-bottom: solid 3px #323232;
+	margin-bottom: 6%;
 }
-.navbar ul li a{
-	color: #fff;
-}
+  
 .navbar-form{
 	margin-left: 5%;
 }
+/*FIN DIV NAVBAR*/
+
+
+
+
+/*DIV CATEGORIES*/
+.categories {
+	position: fixed; 
+	left: -3%;
+	top: 100px;
+	z-index: 2000;
+}
+.categories ul {
+	list-style: none;
+}
+.categories ul li a {
+	display: inline-block;
+	color:#fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+.categories ul li .icon-facebook {background:#3b5998;}
+.categories ul li .icon-twitter {background: #00abf0;}
+.categories ul li .icon-googleplus {background: #d95232;}
+.categories ul li .icon-pinterest {background: #ae181f;}
+.categories ul li .icon-mail {background: #666666;}
+ 
+.categories ul li a:hover {
+	margin-left: 0px;
+	/*padding-right: 30px; *//*Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	background-color: #323232;
+}
+.categories-icon{
+	width: 30px;
+}
+/*FIN DIV CATEGORIES*/
 
 
 
@@ -32,23 +91,348 @@ body{
 
 
 
+
+
+
+
+
+
+
+/*DIVHAMBURGER FOR OPEN MENU*/
+.img-action-categories{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 2%;
+	transition: all 0.8s;
+	margin-top: 0%;
+
+}
+.img-hamburger-categories{
+	position: fixed;
+	cursor: pointer;
+	font-size: 30px;
+	width: 30px;
+	padding-top: 1%;
+	margin-top: 5%;
+	margin-left: -1%;
+}
+.open{
+	transform: translateX(50%);
+	width: 28%;
+	margin-top: 6%;
+	background-color: transparent;
+}
+/*FIN DIV HAMBURGER FOR OPEN MENU*/
+
+
+
+
+
+
+
+/*DIV SLIDER DE CATEGORIAS*/
+.sidebar-categories{
+	position: fixed;
+	margin-top: 4%;
+	padding-top: 2.5%;
+	width: 15%;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	float: left;
+
+	overflow-y: scroll; 
+}
+.sidebar-categories h3{
+	text-align: center;
+	margin: 0;
+	padding: 10px;	
+	border-color: #2a2a2a;
+	transition: 0.3s;
+}
+.sidebar-categories ul{
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+.sidebar-categories li{
+	cursor: pointer;
+	border: 1px solid #2a2a2a;
+	list-style: none;
+}
+.sidebar-categories li:hover{
+	background: #666666;
+	border-left:  10px solid #EEE;
+	transition: border 0.3s;
+}
+.sidebar-categories a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+/*FIN DIV SLIDER DE CATEGORIAS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV TENDENCE*/
+.tendence {
+	position: fixed; 
+	right: -7.5%;
+	top: 100px;
+	z-index: 2000;
+
+}
+.tendence ul {
+	list-style: none;
+}
+.tendence ul li a {
+	display: inline-block;
+	color:#fff;
+	padding: 20px 20px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+.tendence ul li .icon-facebook {background:#323232 /*#3b5998*/;}
+.tendence ul li .icon-twitter {background: #323232 /*#00abf0*/;}
+.tendence ul li .icon-googleplus {background: #323232 /*#d95232*/;}
+.tendence ul li .icon-pinterest {background:  #323232 /*#ae181f*/;}
+.tendence ul li .icon-mai8 {background: #323232 /*#666666*/;}
+ 
+.tendence ul li a:hover {
+	margin-left: -150px;
+	padding-right: 100px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	background-color: #ae181f;
+}
+.tendence-icon{
+	width: 30px;
+}
+/*FIN DIV TENDENCE*/
+
+
+
+
+
+
+
+
+
+
+
+/*DIV USER SETTINGS*/
+.user-settings {
+	position: fixed; 
+	right: -8.3%;
+	top: 600px;
+	z-index: 2000;
+}
+.user-settings ul {
+	list-style: none;
+}
+.user-settings ul li a {
+	display: inline-block;
+	color:#fff;
+	padding: 15px 20px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+.user-settings ul li .icon-facebook {background:#323232 /*#3b5998*/;}
+.user-settings ul li .icon-twitter {background: #323232 /*#00abf0*/;}
+.user-settings ul li .icon-googleplus {background: #323232 /*#d95232*/;}
+.user-settings ul li .icon-pinterest {background:  #323232 /*#ae181f*/;}
+.user-settings ul li .icon-mail {background: #323232 /*#666666*/;}
+ 
+.user-settings ul li a:hover {
+	margin-left: -80px;
+	padding-right: 170px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	background-color: #00abf0;
+}
+.user-settings-icon{
+	width: 30px;
+}
+/*FIN DIV USER SETTINGS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV PUBLICATION*/
 .col-xs-3{
-	margin-left: 30%;
-	margin-right: 30%;
-	width: 40%;
-	border: solid 2px #323232;
-	margin-bottom: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 65%;
+	margin-bottom: 3%;
 	padding: 0%;
 }
 .thumbnail{
-	background: #fff;
+	background: #eee;
 	border-radius: 0px;
-	/*border-bottom: solid 2px #323232;*/
-
+	border: solid #aaa 1px;
+	padding-bottom: 10%;
+	height: 550px;
 }
 
 
+
+
+.profile-img{
+	width: 40px;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.div-img-publication{
+	float: left;
+	width: 65%;
+}
 .img-gamer{
 	width: 100%;
-	height: 300px;
+	height: 350px;
 }
+
+
+
+.div-title-publication{
+	float: left;
+	max-height: 100px;
+	overflow-y: scroll;
+	margin-bottom: 8%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.div-about-publication{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+	max-height: 10px;
+}
+
+.div-top-buttons{
+	float: left;
+	margin-right: 5%;
+	float: left;
+}
+.div-comments-about-publication{
+	width: 150%;
+	height: 250px;
+	border: solid 3px #000;
+	overflow-y: scroll;
+	margin-bottom: 5%;
+}
+.div-comments{
+	overflow-y: scroll;
+	width: 100%;
+	height: 265px;
+	margin-bottom: 5%;
+	border: solid 1px #eee;
+}
+
+
+.div-comments-people{
+	margin-bottom: 15%;
+	float: left;
+}
+.profile-img-comment{
+	width: 30px;
+	font-size: 20px;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	border-radius: 50%;
+}
+.profile-comment a{
+	font-size: 15px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.txt-comment{
+	width: 100%;
+	resize: none;
+	float: left;
+	width: 100%;
+	margin-bottom: 2%;
+}
+.div-comment-tools{
+	float: left;
+}
+/*FIN DIV PUBLICATION*/
