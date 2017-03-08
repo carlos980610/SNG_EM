@@ -228,7 +228,7 @@ body{
 .tendence ul li a:hover {
 	margin-left: -150px;
 	padding-right: 100px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-	background-color: #ae181f;
+	background-color: #d95232;
 }
 .tendence-icon{
 	width: 30px;
