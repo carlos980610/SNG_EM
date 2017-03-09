@@ -1,0 +1,457 @@
+body{
+	background: #fff;
+	padding: 0%;
+	margin: 0%;
+}
+
+
+
+/*CONTROLES GENERALES*/
+
+/*Botones*/
+.btn{
+	border-radius: 0px;
+}
+/*Botones*/
+
+
+/*Contenido menos navbar*/
+.ALL-CONTENT{
+	padding-top: 6%;
+	position: absolute;
+
+
+	width: 70%;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+/*Contenido menos navbar*/
+.form-control{
+	border-radius: 0%;
+}
+
+/*CONTROLES GENERALES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV NAVBAR*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: /*fff*/ #616161;
+	padding-left: 28%;
+	padding-right: 25%;
+	
+	margin-bottom: 6%;
+	border: 0;
+	border-radius: 0%; 
+	border-bottom: solid 4px #323232;
+}
+
+nav.navbar ul.navbar li{
+	color: #000;
+}
+
+.navbar-header .navbar-brand a{
+	color: #fff;
+}
+.navbar-header .navbar-brand:hover{
+	color: #fff;
+	background-color: #ccc;
+}
+
+
+
+
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li:hover{
+	transition: 0.5s;
+	background-color: #ccc;
+  color: #fff;
+}
+  
+.navbar-form{
+	margin-left: 5%;
+}
+
+
+/*FIN DIV NAVBAR*/
+
+
+
+
+
+
+
+
+.div-basic-profile{
+	position: static;
+	height: 220px;
+	border-bottom: solid 2px #323232;
+}
+
+
+
+
+
+.div-photo-profile{
+	width: 30%;
+	margin-left: 1.5%;
+}
+.img-profile{
+	width: 100%;
+	float: left;
+}
+
+
+
+.div-info-profile{
+	float: left;
+	width: 65%;
+	margin-left: 2%;
+}
+
+
+
+.name{
+	margin-top: -4%;
+	width: 50%;
+	float: left;
+}
+.number-publicatios{
+	float: left;
+	width: 40%;
+}
+.report{
+	float: left;
+	margin-top: 5%; 
+	font-size: 20px;
+}
+.report button{
+	background-color: transparent;
+	border: none;
+}
+.level{
+	margin-top: 10%;
+	width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV HAMBURGER FOR OPEN MENU*/
+.img-action-categories{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 2%;
+	transition: all 0.8s;
+	margin-top: 0%;
+
+}
+.img-hamburger-categories{
+	position: fixed;
+	cursor: pointer;
+	font-size: 30px;
+	width: 30px;
+	padding-top: 1%;
+	margin-top: 5%;
+	margin-left: -1%;
+}
+.open{
+	transform: translateX(50%);
+	width: 28%;
+	margin-top: 6%;
+	background-color: transparent;
+}
+/*FIN DIV HAMBURGER FOR OPEN MENU*/
+
+/*DIV SLIDER DE CATEGORIAS*/
+.sidebar-categories{
+	position: fixed;
+	margin-top: 4%;
+	padding-top: 2.5%;
+	width: 15%;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	float: left;
+}
+.sidebar-categories h3{
+	text-align: center;
+	margin: 0;
+	padding: 10px;	
+	border-color: #2a2a2a;
+	transition: 0.3s;
+}
+.sidebar-categories ul{
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+.sidebar-categories li{
+	cursor: pointer;
+	border: 1px solid #2a2a2a;
+	list-style: none;
+}
+.sidebar-categories li:hover{
+	background: #666666;
+	border-left:  10px solid #EEE;
+	transition: border 0.3s;
+}
+.sidebar-categories a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+/*FIN DIV SLIDER DE CATEGORIAS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV USER SETTINGS*/
+.user-settings {
+	position: fixed; 
+	right: -8.3%;
+	top: 600px;
+	z-index: 2000;
+}
+.user-settings ul {
+	list-style: none;
+}
+.user-settings ul li a {
+	display: inline-block;
+	color:#fff;
+	padding: 15px 20px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+.user-settings ul li .icon-mail {background: #ACAEAC /*#666666*/;}
+ 
+.user-settings ul li a:hover {
+	margin-left: -80px;
+	padding-right: 170px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	background-color: #00abf0;
+}
+.user-settings-icon{
+	width: 30px;
+}
+/*FIN DIV USER SETTINGS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV PUBLICATIONS*/
+.div-publication-single{
+	width: 100%;
+	position: relative;
+	float: left; 	
+}
+.col-xs-3{
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 33%;
+}
+.thumbnail{
+	border-radius: 0%;
+	border: solid 1px #323323;
+	padding: 0%;
+}
+/*FIN DIV PUBLICATIONS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-photos-horizontal{
+
+	float: left;
+	width: 3%;
+	margin-left: 15%; 
+	margin-right: 15%;
+	border: solid #000 1px;
+}
+
+.div-publication{
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
