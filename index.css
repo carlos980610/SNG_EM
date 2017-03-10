@@ -444,6 +444,7 @@ nav.navbar ul.navbar li{
 	float: left;
 	width: 100%;
 	margin-bottom: 2%;
+	border: solid 1px #999;
 }
 .div-comment-tools{
 	float: left;
