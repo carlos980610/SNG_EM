@@ -1,0 +1,94 @@
+/*DIV NAVBAR*/
+.navbar{
+	/*position: fixed;*/
+	width: 100%;
+	z-index: 100;
+	background: /*fff*/ #616161;
+	padding-left: 28%;
+	padding-right: 25%;
+	
+	margin-bottom: 6%;
+	border: 0;
+	border-radius: 0%; 
+	border-bottom: solid 4px #323232;
+}
+
+nav.navbar ul.navbar li{
+	color: #000;
+}
+
+.navbar-header .navbar-brand a{
+	color: #fff;
+}
+.navbar-header .navbar-brand:hover{
+	color: #fff;
+	background-color: #ccc;
+}
+
+
+
+
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li:hover{
+	transition: 0.5s;
+	background-color: #ccc;
+  color: #fff;
+}
+  
+.navbar-form{
+	margin-left: 5%;
+}
+
+
+/*FIN DIV NAVBAR*/
+
+
+
+
+/*Botones tipo de publicacion*/
+.buttons-menu{
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+}
+
+
+.image-to-public{
+	width: 30%;
+	float: left;
+}
+
+
+.btn-group{
+	margin-left: 5%;
+}
+.button-type-publication{
+	width: 100px;
+
+}
+.button-type-publication:hover{
+	background-color: #ffbb33;
+
+}
+
+
+.aditional-of-publication{
+	float: left;
+	width: 30%;
+	border: solid #000 1px;
+}
+
+/*Fin botones tipo de publicacion*/
+
+
+

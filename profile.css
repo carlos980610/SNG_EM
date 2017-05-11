@@ -170,9 +170,30 @@ nav.navbar ul.navbar li{
 	border: none;
 }
 .level{
-	margin-top: 10%;
+	margin-top: 1%;
 	width: 40%;
 }
+
+/*Div boton parte superior para añadir una foto nueva*/
+
+.div-button-new-photo{
+	float: right;
+	width: 100%;
+}
+
+.button-add-photo{
+	float: right;
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -373,13 +394,6 @@ nav.navbar ul.navbar li{
 	padding: 0%;
 }
 /*FIN DIV PUBLICATIONS*/
-
-
-
-
-
-
-
 
 
 
