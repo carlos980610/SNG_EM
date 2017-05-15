@@ -46,16 +46,21 @@
 
 
 
-
-
 	<div class="buttons-menu">
 		<h2>Realiza una publicación</h2>
 		<legend>Acá veras tu publicación</legend>
 		<div class="btn-group">
 			<legend>Selecciona el tipo de publicación</legend>
-			<button type="button" class="btn btn-default button-type-publication">Foto</button>
-			<button type="button" class="btn btn-default button-type-publication">Video</button>
-			<button type="button" class="btn btn-default button-type-publication">Gift</button>
+
+			<label class="control-label">Select File</label>
+			<input id="input-4" name="input4[]" type="file" multiple class="file-loading">
+			<script>
+				$(document).on('ready', function() {
+    				$("#input-4").fileinput({showCaption: false});
+				});	
+			</script>
+			
+
 		</div>
 		<img class="image-to-public" src="profile-images\profile-image-3.jpg">		
 	</div>
