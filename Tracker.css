@@ -1,0 +1,256 @@
+	body{
+	background: #fff;
+	padding: 0%;
+	margin: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV NAVBAR*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: /*fff*/ #616161;
+	padding-left: 28%;
+	padding-right: 25%;
+	
+	margin-bottom: 6%;
+	border: 0;
+	border-radius: 0%; 
+	border-bottom: solid 4px #323232;
+}
+
+nav.navbar ul.navbar li{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+.navbar-header .navbar-brand a{
+	color: #fff;
+}
+.navbar-header .navbar-brand:hover{
+	color: #fff;
+	background-color: #ccc;
+}
+
+
+
+
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li:hover{
+	transition: 0.5s;
+	background-color: #ccc;
+  color: #fff;
+}
+  
+.navbar-form{
+	margin-left: 5%;
+}
+
+
+/*FIN DIV NAVBAR*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DIV PUBLICATION*/
+.col-xs-3{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 65%;
+	padding: 0%;
+
+	margin-top: 5%;
+	
+
+}
+.thumbnail{
+	
+	background: #bbb;
+	border-radius: 0px;
+	border: solid #000 2px;
+
+
+}
+.thumbnail button{
+	float: right;
+	margin-top: 1%;
+	border: none;
+	background-color: transparent;
+}
+.thumbnail button:hover{
+	cursor: pointer;
+}
+
+
+
+.profile-img{
+	width: 40px;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.div-img-publication{
+	float: left;
+	width: 100%;
+}
+.img-gamer{
+	width: 100%;
+}
+
+
+
+.div-title-publication{
+	float: left;
+	max-height: 100px;
+	overflow-y: scroll;
+	margin-bottom: 8%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.div-about-publication{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+	max-height: 10px;
+}
+
+.div-top-buttons{
+	width: 100%; 
+	float: left;
+	margin-right: 5%;
+	float: left;
+}
+.button-pro{
+	width: 100%;
+}
+
+
+
+
+.div-comments-about-publication{
+	width: 150%;
+	height: 250px;
+	border: solid 3px #000;
+	overflow-y: scroll;
+	margin-bottom: 5%;
+}
+.div-comments{
+	overflow-y: scroll;
+	width: 100%;
+	height: 265px;
+	margin-bottom: 5%;
+	border: solid 1px #eee;
+}
+
+
+.div-comments-people{
+	margin-bottom: 15%;
+	float: left;
+}
+.profile-img-comment{
+	width: 30px;
+	font-size: 20px;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	border-radius: 50%;
+}
+.profile-comment a{
+	font-size: 15px;
+	color: #000;
+}
+
+.buttons-commets{
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+.txt-comment{
+	width: 100%;
+	resize: none;
+	float: left;
+	width: 100%;
+	margin-bottom: 2%;
+	border: solid 1px #999;
+}
+.div-comment-tools{
+	float: left;
+}
+/*FIN DIV PUBLICATION*/
